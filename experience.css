@@ -1,0 +1,9 @@
+#container {
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+#bird {
+  height: 100px;
+  position: absolute;
+}
