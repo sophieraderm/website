@@ -71,9 +71,6 @@
     </div>
   </div>
 </nav>
-<div id="container">
-  <img id="bird" src="https://media.giphy.com/media/3o7TKTEnDK22YfSWwo/giphy.gif" alt="">
-</div>
 <section class="section">
   <div class="column">
     <div class="column has-text-centered">
@@ -82,34 +79,34 @@
       <div class="column">
         <div class="column has-text-centered">
         </div>
-        <div class="card">
-          <div class="card-content">
-            <p class="title">
-              “You will begin to touch heaven, Jonathan, in the moment that you touch perfect speed. And that isn’t flying a thousand miles an hour, or a million, or flying at the speed of light. Because any number is a limit, and
-              perfection
-              doesn’t have limits. Perfect speed, my son, is being there.”
-            </p>
-            <p class="subtitle">
-              Richard Bach
-            </p>
-          </div>
-          <footer class="card-footer">
-            <p class="card-footer-item">
-              <span>
-                View full quote on <a href="https://www.goodreads.com/book/show/71728.Jonathan_Livingston_Seagull" target="_blank">Goodreads</a>
-              </span>
-            </p>
-          </footer>
-        </div>
+        <svg viewBox="0 0 280 280" class="svg svg--bird">
+          <defs>
+            <mask id="mask" maskunits="userSpaceOnUse" maskcontentunits="userSpaceOnUse">
+              <image xlink:href="https://img-fotki.yandex.ru/get/15520/5091629.a4/0_8d416_118079e_orig" width="277" height="293"></image>
+            </mask>
+
+            <linearGradient id="gr-1" x1="0" y1="0" x2="100%" y2="100%">
+              <stop offset="15%" class="stop-color stop-color--1" />
+              <stop offset="45%" class="stop-color stop-color--2" />
+              <stop offset="55%" class="stop-color stop-color--2" />
+              <stop offset="85%" class="stop-color stop-color--3" />
+            </linearGradient>
+
+            <linearGradient id="gr-2" x1="0" y1="100%" x2="100%" y2="0%">
+              <stop offset="15%" class="stop-color stop-color--4" />
+              <stop offset="45%" class="stop-color stop-color--5" stop-opacity="0" />
+              <stop class="stop-color stop-color--5" stop-opacity="0" />
+              <stop offset="85%" class="stop-color stop-color--6" />
+            </linearGradient>
+          </defs>
+
+          <g mask="url(#mask)" class="g-container">
+            <rect fill="url(#gr-1)" width="100%" height="100%"></rect>
+            <rect fill="url(#gr-2)" width="100%" height="100%"></rect>
+          </g>
+        </svg>
       </div>
-      <section class="hero is-info">
-        <div class="hero-body">
-          <div class="container">
-            <p class="title">Tech</p>
-            <p class="subtitle">Work in Blockchain</p>
-          </div>
-        </div>
-      </section>
+
       <div class="table-container">
         <br>
         <table class="table is-responsive">
@@ -118,117 +115,17 @@
               <th>Company</th>
               <th>Project</th>
               <th>Description</th>
-              <th>Duration</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><a class="button is-info is-light" href="https://ipfs.io/ipns/trinkler.software/">Trinkler Software</a></td>
-              <td><a class="button is-info is-light" href="https://katalchain.com/">Katal Chain</a></td>
+              <td><a class="button is-black is-light" href="https://ipfs.io/ipns/trinkler.software/">Trinkler Software</a></td>
+              <td><a class="button is-black is-light" href="https://katalchain.com/">Katal Chain</a></td>
               <td>Standard Framework for Finance</td>
-              <td>2019-Present</td>
             </tr>
           </tbody>
         </table>
       </div>
-      <section class="hero is-info">
-        <div class="hero-body">
-          <div class="container">
-            <p class="title">Film/TV</p>
-            <p class="subtitle">Acting, Background, Writing, and Directing</p>
-          </div>
-        </div>
-        <div class="demo">
-          <br>
-          <table class="table is-responsive">
-            <thead>
-              <tr>
-                <th>Production Company/Network</th>
-                <th>Production Title</th>
-                <th>Synopsis</th>
-                <th>Production Status</th>
-                <th>Role</th>
-                <th>TV/Film</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>-</td>
-                <td>The Enchantress of Numbers</td>
-                <td>The story of Ada Lovelace, Charles Babbage, and The Analytical Engine.</td>
-                <td><strong>In Development</strong></td>
-                <td>Writer</td>
-                <td>Film</td>
-              </tr>
-              <tr>
-                <td>-</td>
-                <td>Magic Mirrors</td>
-                <td>A documentary exploring the esoteric cult following of artist and mathematician M.C. Escher. From Hollywood, to musicians, counterculture youth, mystics and scientists.</td>
-                <td><strong>In Development</strong></td>
-                <td>Director</td>
-                <td>Film</td>
-              </tr>
-              <tr>
-                <td>-</td>
-                <td>The Bush Connection</td>
-                <td>A documentary chronicling the story of Tesla's Assistant George H. Scherff and his connection to the Bush family.</td>
-                <td><strong>In Development</strong></td>
-                <td>Director</td>
-                <td>Film</td>
-              </tr>
-              <tr>
-                <td>Protagonist Pictures</td>
-                <td><a class="button is-info is-light" href="https://www.imdb.com/title/tt3068194/">Love & Friendship</a></td>
-                <td>Love & Friendship is a 2016 period comedy film written and directed by Whit Stillman. Based on Jane Austen's epistolary novel Lady Susan.</td>
-                <td><strong>Released (2016)</strong></td>
-                <td>Maria Manwaring</td>
-                <td>Film</td>
-              </tr>
-              <tr>
-                <td>Vertigo Releasing</td>
-                <td><a class="button is-info is-light" href="https://www.imdb.com/title/tt3344694/">The Secret Scripture</a></td>
-                <td>The Secret Scripture is an Irish film, directed by Jim Sheridan, from a screenplay by Sheridan and Johnny Ferguson, which is based on the 2008 novel of the same name The Secret Scripture by Sebastian Barry.</td>
-                <td><strong>Released (2016)</strong></td>
-                <td>Background</td>
-                <td>Film</td>
-              </tr>
-              <tr>
-                <td>Showtime/Sky</td>
-                <td><a class="button is-info is-light" href="https://www.imdb.com/title/tt2628232/">Penny Dreadful Season 2 & 3</a></td>
-                <td>Penny Dreadful is a British-American horror drama television series created for Showtime and Sky by John Logan, who also acts as executive producer alongside Sam Mendes.</td>
-                <td><strong>Released (2014, 2015, 2016)</strong></td>
-                <td>Background</td>
-                <td>TV</tv>
-              </tr>
-              <tr>
-                <td>Tiger Aspect Productions</td>
-                <td><a class="button is-info is-light" href="https://www.imdb.com/title/tt2183641/">Ripper Street, Season 4</a></td>
-                <td>Ripper Street is a British TV series set in Whitechapel in the East End of London starring Matthew Macfadyen, Jerome Flynn, Adam Rothenberg, and MyAnna Buring. It begins in 1889, six months after the infamous Jack the Ripper
-                  murders.</td>
-                <td><strong>Released (2015)</td>
-                <td>Background</td>
-                <td>TV</td>
-              </tr>
-              <tr>
-                <td>The CW</td>
-                <td><a class="button is-info is-light" href="https://www.imdb.com/title/tt2710394/">Reign, Season 3</a></td>
-                <td>Reign is an American historical romantic drama television series following the early exploits of Mary, Queen of Scots.</td>
-                <td><strong>Released (2015)</strong></td>
-                <td>Background</td>
-                <td>TV</td>
-              </tr>
-              <tr>
-                <td>-</td>
-                <td><a class="button is-info is-light" href="https://www.imdb.com/title/tt4391196/">Lost in Thought</a></td>
-                <td>A Silent Short that follows the story of RAVEN, a grown man, who has been given an old-fashioned typewriter as a gift.</td>
-                <td><strong>Completed (2014)</strong></td>
-                <td>Writer, Director, Producer</td>
-                <td>Short Film</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
 </section>
 </div>
 </div>
